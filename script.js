@@ -57,7 +57,7 @@ up.addEventListener("click", function () {
     p2time += it;
     upt.innerText = formatTime(p2time);
 
-    down.style.backgroundColor = "rgb(18, 247, 40)";
+    down.style.backgroundColor = "#4caf50";
     up.style.backgroundColor = "white";
 
     up.disabled = true;
@@ -78,7 +78,7 @@ down.addEventListener("click", function () {
     p1time += it;
     dot.innerText = formatTime(p1time);
 
-    up.style.backgroundColor = "rgb(18, 247, 40)";
+    up.style.backgroundColor = "#4caf50";
     down.style.backgroundColor = "white";
 
     down.disabled = true;
